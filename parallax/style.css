@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.img1, .img2, .img3 {
+    background-attachment: fixed;
+}
+
+.img1 {
+    height: 100vh;
+    background-image: url("images/img1.jpg");
+    background-size: cover;
+    opacity: 0.75;
+}
+
+.img1 p {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+#title {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 8px; 
+    margin: auto;
+    padding: 20px;
+    color: black;
+    
+}
+
+.last h1{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 8px; 
+    margin: auto;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    
+}
+
+#sect-1 {
+    padding: 30px;
+    background: darkslategrey;
+    text-align: center;
+    height: 20em;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+#sect-1 p {
+    margin: 30px;
+    line-height: 40px;
+}
+
+.img2 {
+    background-image: url("images/img2.jpg");
+    height: 50vmin;
+    background-size: 100%;
+    background-position: center;
+    opacity: .75;
+}
+
+#sect-2 {
+    padding: 30px;
+    background: rgb(57, 136, 136);
+    text-align: center;
+    height: 17em;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+#sect-2 p {
+    margin: 30px;
+    line-height: 40px;
+}
+
+.img3 {
+    background-image: url("images/img3.jpg");
+    height: 50vmin;
+    background-size: 100%;
+    background-position: center;
+    opacity: .75;
+}
+
+#sect-3 {
+    padding: 30px;
+    background: rgb(9, 22, 22);
+    text-align: center;
+    height: 17em;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+#sect-3 p {
+    margin: 30px;
+    line-height: 40px;
+}
+
+#last {
+    text-decoration: underline;
+}
